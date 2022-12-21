@@ -23,7 +23,7 @@ app.post("/register", register);
 
 app.post("/login", login);
 
-const port = process.env.PORT || 5600;
+const port = process.env.PORT || 5700;
 
 app.listen(port, async function () {
   try {
